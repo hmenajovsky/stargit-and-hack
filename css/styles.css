@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+nav ul{
+    width: 50%;
+    list-style-type: none;
+    display:flex;
+    
+}
+
+h1{
+    text-align: center;
+    margin : 30px;
+}
+
+#container{
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+.avatars{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+}
+
+img{
+    width: 50%;
+}
+
+p{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px 0px ;
+    margin-bottom: 15px;
+}
+
+aside ul{
+    list-style-type :' -  ';
+}
+
+h2{
+    margin-bottom: 15px;
+}
